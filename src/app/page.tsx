@@ -1,8 +1,9 @@
-import Image from "next/image";
 import { Inter } from "next/font/google";
 import { getUsers } from "~/db/db";
 
 const inter = Inter({ subsets: ["latin"] });
+
+export const dynamic = "force-dynamic";
 
 export default async function Home() {
   const values = await getUsers();

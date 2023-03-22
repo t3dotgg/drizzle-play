@@ -1,0 +1,5 @@
+{
+  "out": "./migrations",
+  "schema": "./src/db",
+  "connectionString": "mysql://hlktheqbh7iqzow6smj3:pscale_pw_scLiHo322eV6XS28p4dNCwdumcB9bunAuUqt0IU84Wa@us-west.connect.psdb.cloud/drizzle-play?ssl={\"rejectUnauthorized\":true}"
+}
